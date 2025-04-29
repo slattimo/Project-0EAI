@@ -43,11 +43,11 @@
      ```
      git clone git@github.com:slattimo/Project-0EAI.git
      ```
-   - **BRANCHING** (requires Personal Access Token):
+   - **BRANCHING**
      ```
      git checkout -b <branch-name>
      ```
-   - **PUSHING** (requires SSH key setup):
+   - **PUSHING**
      ```
      git push -u origin <branch-name>
      ```
