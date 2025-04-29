@@ -43,6 +43,14 @@
      ```
      git clone git@github.com:slattimo/Project-0EAI.git
      ```
+   - **BRANCHING**
+     ```
+   git checkout -b <branch-name>
+     ```
+   - **PUSHING**
+     ```
+   git push -u origin <branch-name>
+     ```
 
 2. Navigate to the backend directory and restore dependencies:
    ```
