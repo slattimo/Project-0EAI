@@ -1,21 +1,24 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { resolve } from 'path';
+import path from 'path';
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  root: './src/renderer',
+  base: './',
   plugins: [react()],
-  resolve: {
-    alias: {
-      '@': resolve(__dirname, 'src'),
-    },
+  css: {
+    postcss: path.resolve(__dirname, './postcss.config.js'),
   },
   build: {
-    outDir: 'dist',
-    sourcemap: true,
+    outDir: path.resolve(__dirname, 'dist/renderer'),
+    emptyOutDir: true,
   },
-  server: {
-    port: 3000,
-    open: true,
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src/renderer'),
+    }
   },
+  optimizeDeps: {
+    include: ['@fontsource/inter']
+  }
 });

@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+      "target": "ES2022",
+      "module": "ESNext",
+      "outDir": "dist",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "strict": true,
+      "baseUrl": "./src",
+      "paths": {
+        "*": ["*"]
+      }
+    },
+    "include": ["src", "postcss.config.js", "tailwind.config.js"]
+  }
+  

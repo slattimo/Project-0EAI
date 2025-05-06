@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root defaults */
+html {
+  @apply font-sans bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text;
+}
