@@ -1,5 +1,17 @@
 # Dependencies
-node_modules/
-desktop/node_modules/
-dist/
+node_modules
+**/node_modules
+**/dist
 *.exe
+
+# Electron specific
+**/electron/dist/**
+desktop/node_modules/electron/dist/
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+.env.local
