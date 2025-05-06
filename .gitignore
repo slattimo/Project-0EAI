@@ -1,0 +1,5 @@
+# Dependencies
+node_modules/
+desktop/node_modules/
+dist/
+*.exe
