@@ -16,6 +16,10 @@ namespace EmailAI.Models
 
         public string OauthProvider { get; set; }
 
+        public DateTime CreatedAt { get; set; }
+
+        public DateTime? LastLogin { get; set; }
+
         public string SubscriptionStatus { get; set; }
     }
 }

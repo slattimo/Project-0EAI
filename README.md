@@ -12,12 +12,13 @@
 - Smart email search functionality
 - Draft saving and scheduling for future sends
 - Subscription management through Stripe
+- Insights, metrics and analytics
 
 ## Tech Stack
 
 - **Backend:** ASP.NET Core Minimal API
 - **Database:** PostgreSQL (Supabase, Railway, or Render)
-- **Desktop App:** Electron + React + TailwindCSS
+- **Desktop App:** Electron + React + Vite + TailwindCSS
 - **Mobile App:** React Native
 - **AI Integration:** OpenAI API (GPT-4 Turbo or 3.5 Turbo for MVP)
 - **Payments:** Stripe Subscriptions
@@ -42,6 +43,14 @@
    - **SSH** (requires SSH key setup):
      ```
      git clone git@github.com:slattimo/Project-0EAI.git
+     ```
+   - **BRANCHING**
+     ```
+     git checkout -b <branch-name>
+     ```
+   - **PUSHING**
+     ```
+     git push -u origin <branch-name>
      ```
 
 2. Navigate to the backend directory and restore dependencies:
